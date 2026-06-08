@@ -39,7 +39,10 @@ enquanto evolui seu avatar e ganha pontos de experiência.
 ![Avatar](./screenshots/avatar.gif)
 
 ### Objetivos com Gamificação
-![Objetivos](./screenshots/onboarding-objetivo.png)
+![Objetivos](./screenshots/gameMoedas.gif)
+
+### Mini-game — Corrida do Piggy
+![Game Jump](./screenshots/gameJump.gif)
 
 ---
 
