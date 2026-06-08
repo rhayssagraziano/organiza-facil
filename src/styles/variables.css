@@ -1,0 +1,74 @@
+:root {
+  /* ── Backgrounds ─────────────────────────────────────────────────────── */
+  --bg:  #0f1117;
+  --bg2: #161b24;
+  --bg3: #1e2535;
+  --bg4: #252d3d;
+
+  /* ── Brand / Accent ──────────────────────────────────────────────────── */
+  --verde:        #4ade80;
+  --verde-d:      #22c55e;
+  --verde-bg:     rgba(74, 222, 128, 0.08);
+  --verde-borda:  rgba(74, 222, 128, 0.2);
+
+  /* ── Text ────────────────────────────────────────────────────────────── */
+  --txt:  #f1f5f9;
+  --txt2: #94a3b8;
+  --txt3: #64748b;
+
+  /* ── Borders ─────────────────────────────────────────────────────────── */
+  --borda: rgba(255, 255, 255, 0.07);
+
+  /* ── Semantic colors ─────────────────────────────────────────────────── */
+  --vermelho: #f87171;
+  --amarelo:  #fbbf24;
+  --roxo:     #a78bfa;
+
+  /* ── Design tokens (gamification / landing) ──────────────────────────── */
+  --bg-primary:    #0D1117;
+  --bg-card:       #161B24;
+  --bg-element:    #1E2533;
+  --bg-hover:      #252D3D;
+  --text-primary:  #F1F5F9;
+  --text-secondary:#8890A6;
+  --text-tertiary: #4B5568;
+  --green-neon:    #22C55E;
+  --green-dark:    #16A34A;
+  --green-light:   #4ADE80;
+  --gold:          #F59E0B;
+  --gold-light:    #FCD34D;
+  --danger:        #FF6B6B;
+  --border:        rgba(255, 255, 255, 0.07);
+  --border-md:     rgba(255, 255, 255, 0.12);
+  --border-green:  rgba(34, 197, 94, 0.25);
+  --border-gold:   rgba(245, 158, 11, 0.35);
+  --green-glow:    rgba(34, 197, 94, 0.10);
+  --gold-glow:     rgba(245, 158, 11, 0.15);
+
+  /* ── Typography ──────────────────────────────────────────────────────── */
+  --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-xs:   10px;
+  --font-sm:   11px;
+  --font-base: 13px;
+  --font-md:   14px;
+  --font-lg:   16px;
+  --font-xl:   20px;
+  --font-2xl:  22px;
+  --font-3xl:  28px;
+
+  /* ── Border radius ───────────────────────────────────────────────────── */
+  --radius-sm:   6px;
+  --radius-md:   8px;
+  --radius-lg:   12px;
+  --radius-xl:   16px;
+  --radius-full: 9999px;
+
+  /* ── Spacing ─────────────────────────────────────────────────────────── */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+}

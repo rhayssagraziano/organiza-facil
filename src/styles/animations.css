@@ -1,0 +1,88 @@
+/* ── Keyframes ───────────────────────────────────────────────────────────── */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0);   }
+}
+
+@keyframes slideInLeft {
+  from { opacity: 0; transform: translateX(-12px); }
+  to   { opacity: 1; transform: translateX(0);      }
+}
+
+@keyframes slideInRight {
+  from { opacity: 0; transform: translateX(12px); }
+  to   { opacity: 1; transform: translateX(0);    }
+}
+
+@keyframes scaleIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to   { opacity: 1; transform: scale(1);    }
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1;   }
+  50%       { opacity: 0.5; }
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+
+.of-fade-in       { animation: fadeIn      0.25s ease both; }
+.of-slide-in-left { animation: slideInLeft 0.25s ease both; }
+.of-slide-in-right{ animation: slideInRight 0.25s ease both; }
+.of-scale-in      { animation: scaleIn     0.2s  ease both; }
+.of-pulse         { animation: pulse       1.5s  ease-in-out infinite; }
+.of-spin          { animation: spin        0.8s  linear    infinite; }
+
+/* ── Float (landing page hero) ───────────────────────────────────────────── */
+@keyframes float {
+  from { transform: translateY(0px); }
+  to   { transform: translateY(-16px); }
+}
+
+/* ── Gamification ─────────────────────────────────────────────────────────── */
+@keyframes coinFall {
+  0%   { top: -40px; opacity: 1; }
+  85%  { opacity: 1; }
+  100% { top: calc(100% + 20px); opacity: 0; }
+}
+
+@keyframes piggyBounce {
+  0%,100% { transform: scale(1) rotate(-2deg); }
+  50%     { transform: scale(1.12) rotate(2deg); }
+}
+
+@keyframes confettiFall {
+  0%   { transform: translateY(0) rotate(0deg); opacity: 1; }
+  100% { transform: translateY(440px) rotate(720deg); opacity: 0; }
+}
+
+@keyframes sheetUp {
+  from { transform: translateY(100%); }
+  to   { transform: translateY(0); }
+}
+
+/* ── Login page ───────────────────────────────────────────────────────────── */
+@keyframes gradientFlow {
+  0%   { background-position: 0% center; }
+  100% { background-position: 200% center; }
+}
+
+@keyframes barPulse {
+  0%, 100% { opacity: 0.55; }
+  50%       { opacity: 1; }
+}
+
+/* ── Onboarding ───────────────────────────────────────────────────────────── */
+@keyframes piggyEntrada {
+  from { transform: scale(0.5); opacity: 0; }
+  to   { transform: scale(1);   opacity: 1; }
+}
+
+@keyframes piggyFlutua {
+  from { transform: translateY(0); }
+  to   { transform: translateY(-10px); }
+}

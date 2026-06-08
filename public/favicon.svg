@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <ellipse cx="16" cy="21" rx="9" ry="8" fill="#22C55E"/>
+  <ellipse cx="16" cy="23" rx="5.5" ry="4" fill="#4ADE80"/>
+  <circle cx="16" cy="11.5" r="7" fill="#22C55E"/>
+  <circle cx="10" cy="5.5" r="3" fill="#22C55E"/>
+  <circle cx="10" cy="5.5" r="2" fill="#16A34A"/>
+  <circle cx="22" cy="5.5" r="3" fill="#22C55E"/>
+  <circle cx="22" cy="5.5" r="2" fill="#16A34A"/>
+  <ellipse cx="11" cy="13.5" rx="2.2" ry="1.6" fill="#16A34A" opacity="0.5"/>
+  <ellipse cx="21" cy="13.5" rx="2.2" ry="1.6" fill="#16A34A" opacity="0.5"/>
+  <circle cx="13.5" cy="10.5" r="1.6" fill="white"/>
+  <circle cx="18.5" cy="10.5" r="1.6" fill="white"/>
+  <circle cx="13.8" cy="10.5" r="0.9" fill="#1A1A2E"/>
+  <circle cx="18.8" cy="10.5" r="0.9" fill="#1A1A2E"/>
+  <circle cx="14.2" cy="10" r="0.4" fill="white"/>
+  <circle cx="19.2" cy="10" r="0.4" fill="white"/>
+  <ellipse cx="16" cy="14" rx="3.2" ry="2.2" fill="#16A34A"/>
+  <circle cx="14.7" cy="14" r="0.7" fill="#0F4C25"/>
+  <circle cx="17.3" cy="14" r="0.7" fill="#0F4C25"/>
+  <circle cx="16" cy="23" r="3" fill="#F59E0B"/>
+  <text x="16" y="24.8" text-anchor="middle" font-size="4" font-weight="bold" fill="#78350F" font-family="sans-serif">$</text>
+</svg>
